@@ -1,3 +1,5 @@
+# This is a comment.
+
 class Node:
     
     def __init__(self, data):
