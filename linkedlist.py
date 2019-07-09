@@ -69,3 +69,9 @@ class MyLinkedList:
         previousNode.next = currentNode.next
         self.size -= 1
         
+    def printList(self) -> None:
+        currentNode = self.head
+        while currentNode:
+            print(currentNode.val)
+            currentNode = currentNode.next
+        
